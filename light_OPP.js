@@ -34,4 +34,6 @@ const students = function(name, age){
 
 const student1 = new students("Jhon", 20);
 const student2 = new students("Mary", 21);
+student2.birthday();
 console.log(`All students: ${student1.name}, ${student2.name}`);
+console.log(student2.age);
